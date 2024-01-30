@@ -1,0 +1,49 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  height: 100vh;
+  width: 100vw;
+}
+.left {
+  background: #f3de53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+.terms {
+  color: #989898;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 40px auto 20px auto;
+}
+.below-signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 20px auto 20px auto; */
+}
+.line {
+  width: 140px;
+  height: 1px;
+  background: #dbdbde;
+  margin: 20px auto 20px auto;
+}
+.auth {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 964px) {
+  .container {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}

@@ -1,0 +1,13 @@
+.text {
+  color: #989898;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 20px auto 20px auto;
+}
+.highlight {
+  color: #1877f2;
+  text-decoration: none;
+}
